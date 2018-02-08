@@ -1,0 +1,36 @@
+:root {
+  --insta-blue: #2781ab;
+  --insta-grey: #26272b;
+}
+
+/* Helpers */
+.full-height {
+  height: 50vh;
+}
+
+.mid-height {
+  height: 25vh
+}
+
+/* Site styles */
+#collage-section {
+  height: 50vh;
+  background-color: #adadad;
+}
+
+#collage-section div {
+  outline: 1px solid #2781ab;
+}
+
+#middle-section {
+  background-color: var(--insta-grey);
+  height: 10vh;
+  color: var(--insta-blue);
+}
+
+#images-container .col {
+  padding: 0;
+  background-color: #26272b;
+  border-top: 1px solid #313131;
+  border-left: 1px solid #313131;
+}
