@@ -1,6 +1,6 @@
 # Insta Collage
 
-![imagen](assets/images/imgdnd.PNG);
+![imagen](assets/images/imgdnd.PNG)
 
 ## Requerimientos
 - Uso de API Drag and Drop de HTML5
