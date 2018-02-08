@@ -1,6 +1,6 @@
 const init = () => {
   const handleDragStart = (event) => {
-    if (event.target.matches('img')) {
+    if (event.target.getAttribute('draggable')) {
       event.dataTransfer.setData('text', event.target.getAttribute('src'));
     }
   };
