@@ -18,14 +18,17 @@
   background-color: #adadad;
 }
 
-#collage-section div {
-  outline: 1px solid #2781ab;
+.collage {
+  background-position: center;
+  background-size: cover;
+  border: 3px solid #e2e2e2;
 }
 
 #middle-section {
   background-color: var(--insta-grey);
-  height: 10vh;
   color: var(--insta-blue);
+  height: 10vh;
+  font-size: 1.5em;
 }
 
 #images-container .col {
