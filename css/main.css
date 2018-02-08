@@ -36,6 +36,9 @@ input[type=email]:focus, input[type=password]:focus,
 #collage-section {
   height: 50vh;
   background-color: #adadad;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .collage {
@@ -48,12 +51,38 @@ input[type=email]:focus, input[type=password]:focus,
   background-color: var(--insta-grey);
   color: var(--insta-blue);
   height: 10vh;
-  font-size: 1.5em;
+  font-size: 1.25em;
+  margin-top: 50vh;
+}
+
+#images-container {
+  background-color: #26272b;
 }
 
 #images-container .col {
   padding: 0;
-  background-color: #26272b;
-  border-top: 1px solid #313131;
   border-left: 1px solid #313131;
+  border-top: 1px solid #313131;
+}
+
+@media (min-width: 576px) {
+  #collage-section {
+    height: 100vh;
+  }
+
+  .full-height {
+    height: 100vh;
+  }
+
+  .mid-height {
+    height: 50vh;
+  }
+
+  #middle-section {
+    margin-top: 0;
+  }
+
+  #images-container {
+    height: 90vh;
+  }
 }
